@@ -1,0 +1,9 @@
+
+*{
+  text-transform: capitalize !important;
+}
+/* css  */
+.text-muted:hover{
+            color:blue !important;
+            font-size: medium !important;
+}
