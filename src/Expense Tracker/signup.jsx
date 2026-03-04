@@ -16,7 +16,7 @@ export default function Signup() {
             return
         }
     axios.post('http://localhost:1000/signup',data).then((res)=>{
-        console.log(res);
+        localStorage.setItem("user_id", res.user_id);
     }).catch((e)=>{
         console.log(e);
     });
